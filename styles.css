@@ -1,0 +1,379 @@
+body {
+    font-family: 'Quattrocento Sans';
+    color: #282828;
+    font-size: 25px;
+    margin:0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #4078C0;
+}
+
+.wrapper {
+    position: relative;
+}
+
+/*-------------------- LANDING CONTENT --------------------*/
+.top {
+    margin-left: 43px;
+    margin-right: 43px;
+}
+
+.landing-img {
+    width: 45%;
+    height: auto;
+    max-width: 900px;
+    display: inline-block;
+    margin-top: 43px;
+    margin-right: 0;
+    vertical-align: top;
+}
+
+.landing-text {
+    margin-top: 43px;
+    max-width: 45px;
+    width: 3%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*--------------------- MAIN CONTENT ---------------------*/
+
+.bottom {
+    width: 100%;
+}
+
+.page {
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.content {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+/*---------- TAB SECTION ---------*/
+
+.tabs-div {
+    margin-right: 43px;
+    margin-left: 43px;
+    margin-bottom: -1px;
+    margin-top: 25px;
+}
+
+.tab {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Chathura';
+    font-size: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.tab:hover {
+    cursor: pointer;
+    color: #4078C0;
+}
+
+.space-tab {
+    width: 50%;
+}
+
+.tabs {
+    width: 50%;
+    display: inline-block;
+}
+
+.about-tab, .portfolio-tab, .contact-tab, .blog-tab {
+    width: 24%;
+    height: 35px;
+}
+
+.blog-tab {
+    background-color: #d2d2d2;
+    margin-left: 1%;
+
+}
+
+.about-tab {
+    background-color: #a6a6a6;
+    margin-left: 1%;
+    margin-right: 0.5%;
+}
+
+.portfolio-tab {
+    background-color: #3F3F3F;
+    color: #C0C0C0;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.contact-tab {
+    background-color: #282828;
+    color: #F1F1F1;
+    margin-left: 0.5%;
+}
+
+.tab-txt {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/*---------- MAIN CONTENT DIV ----------*/
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*----- ABOUT SECTION------*/
+
+.about {
+    background-color: #a6a6a6;
+    display: none;
+}
+
+p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 113.9px;
+    padding-bottom: 113.9px;
+    font-size: 25px;
+    line-height: 1.5;
+    // font-weight: bold;
+}
+
+/*----- PORTFOLIO SECTION-----*/
+
+.portfolio {
+    background-color: #3F3F3F;
+    color: #A5A5A5;
+    text-align: center;
+}
+
+.row {
+    padding-top: 30px;
+}
+
+/*-- TITLE --*/
+
+.title, .description, .proj-image {
+    max-width: 1000px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 70px;
+    letter-spacing: 20px;
+    font-family: 'Chathura';
+}
+
+.sup {
+    letter-spacing: 2px;
+}
+
+.long {
+    font-size: 40px;
+}
+
+/*-- SCREENSHOT --*/
+
+.proj-image {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.image, .hover-image {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hover-image {
+    display: none;
+}
+
+.description {
+    background-color: rgba(255, 255, 255, .7);
+    font-size: 23px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    line-height: 1;
+    letter-spacing: 2px;
+    display: none;
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #282828;
+}
+
+.desc-title {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.cent-title {
+}
+
+/*-- ICONS --*/
+.proj-icons {
+    width: 12.5%;
+    margin-right: 0;
+    margin-left: 25%;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.gh {
+    color: #6CC644;
+}
+
+.lt {
+    color: #BD2C00;
+}
+
+/*----- CONTACT SECTION -----*/
+
+.contact {
+    background-color: #282828;
+    color: #D8D8D8;
+    display: none;
+    height: 700px;
+}
+
+/*-- ICONS --*/
+
+.contact-fa {
+    width: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10%;
+    display: inline-block;
+    font-size: 3em;
+}
+
+.fa-linkedin {
+    padding-bottom: 6px;
+}
+
+a:hover > .fa {
+    color: #4078C0;
+    cursor: pointer;
+}
+
+/*---------------------- PERIMETER BORDER -----------------------*/
+
+.border-top {
+    top: 20px;
+}
+
+.border-bottom {
+    bottom: 13px;
+}
+
+.border-left {
+    left: 20px;
+}
+
+.border-right {
+    right: 20px;
+}
+
+.border-left, .border-right {
+    width: 3px;
+    top: 20px;
+    bottom: 13px;
+}
+
+.border-top, .border-bottom {
+    height: 3px;
+    left: 20px;
+    right: 20px;
+}
+
+.border-top, .border-bottom, .border-left, .border-right {
+    position: absolute;
+    background-color: #747474;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    z-index: 10;
+}
+@media only screen and (max-width:1000px) {
+    .description {
+        font-size: 18px;
+    }
+    .tab {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .desc-body {
+        display: none;
+    }
+    .space-tab {
+        width: 0;
+    }
+    .tabs {
+        width: 100%;
+        display: inline-block;
+    }
+    .tab {
+        font-size: 16px;
+    }
+    .about-tab, .portfolio-tab, .contact-tab {
+    }
+    .title {
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+    .contact-fa {
+        font-size: 2em;
+    }
+    p {
+        font-size: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width:420px) {
+    .tab {
+        font-size: 12px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .cent-title {
+        display: none;
+    }
+    .contact-fa {
+        font-size: 1em;
+    }
+    p {
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

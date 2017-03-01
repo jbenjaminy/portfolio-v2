@@ -1,0 +1,62 @@
+PORTFOLIO:
+** need a footer with contact info, links to GitHub, etc.
+** link to NOOR
+** get copy of dr. nguyen research
+-simplistic design
+-header on landing page with  name and a few bullets summarizing myself
+-intuitive scroll/click in each direction for four parts of the page 
+-ABOUT: A few paragraphs summarizing my background/interests/inspiration/etc. 
+	-include some correalations between programming and other interests (poker, physics, test-taking) how it fits my personality (attention to detail, combines creative and quantitative side, problem-solver) how it fits into my job history(connections to personal assistant)
+
+-PORTFOLIO: A full-page snapshot and description of projects w/ link to deployed site.
+    -can scroll through them.
+-OTHER WORK: links to other projects unrelated to coding.
+-would include things like a short film I produced, my illustrations that were published in a medical book, writing samples, email marketing , my biology research
+        -RESUME: html version of resume w/ contact info
+
+Personal story: 
+
+I grew up around tech, as my dad has consulted in cyber security for nearly 30 years. As is often the case, when I was a child I quickly decided I wasn't interested in the field my dad spent his time in. Never-the-less, I was continually exposed to the ins-and-outs of his profession and he kept me updated with all of the happenings of the tech world. When I started college, I knew I was drawn to math and sciences and began studying biology on a pre-med track. I followed through with this, completing my degree with countless hours of volunteer work, research and physician-shadowing on my resume. Immediately after graduation, I knew I wasn't ready to go straight into medical school. It took a lot out of me to keep my gpa up and manage to fit in all of the extra-curricular activities and I needed a break. I planned to take the year off and apply the following session. 
+
+It was around this time that I began realizing more and more my acute interest in tech. I became fascinated with Bitcoin and Blockchain technology and some of the first code I ever wrote was setting up crypto-currency miners on my computer -- not with any hope of financial gain but simply to engage in this world a little more. I started to look around for some positions in tech, but was discouraged when the only ones that I felt I would have a shot at were sales-related or customer-service -- two jobs I knew for certain I didn't want to make a career out of, and I began to regret not getting my degree in Computer Science or something similar. My year off turned into a few as I became preoccupied with work and distracted by my other interests. I began going back and forth on whether I should continue down the med-school path or begin working toward a career in tech. 
+
+This year I decided it was now or never for med-school as it was the last year my MCAT scores would be valid. I had my personal statement in order, all my letters of recommendation completed, etc. Just before applications were about to open in the spring, I saw an ad for App Academy's program. This was the first programming boot-camp I had come across and I excitedly sought out more info. I quickly applied for this program, had a couple interviews and made it through the first cut. I then completed their four-week prep course in Ruby and had my final interview. I heard back about a week later that I wasn't accepted to their program. While rejection is never a great feeling, I surprisingly wasn't that set-back by this, as these four weeks of coding solidified my passion for tech and I was increasingly realizing what I great fit programming was for me. 
+
+I always flourished in subjects like physics because of my ability to problem solve in an extremely technical context and visualize abstract concepts. These are some of the exact same things that attracted me to programming. Additionally, I love that there's not a single 'correct' answer to things, and that I can combine my problem solving mindset with my creative side. Last, I have a passion for research and I appreciate that there is so much 'uncharted territory' in programming left to be discovered, and that advancement in technology is really only limited by itself. So even though I didn't make the final cut for App Academy, I was more motivated than ever. The very next day I scheduled a call with the program director at Thinkful. Within a few days I began their prep course and was happily accepted to the full program a few weeks later. I am so grateful that this was the program I ended up doing. The curriculum, the projects and most of all the people are all exceptional. I still can't believe how much I've learned in such a short period and am excited to start my career as a developer!
+
+render() {
+    console.log('state', this.props.state);
+    	return (
+			<div className="nav">
+				<table align="center" style="margin:0 auto; height:540px; width:960px; background-color:#F2F5EC; font-family:'Chathura'; font-weight:lighter; border-spacing:0;">
+					<tr style="height:64px;">
+						<td style="padding:0; width:100%; vertical-align:top;">
+							<div style="margin:0 auto; width:100%; text-align:center; font-family:'Chathura'; font-weight:lighter;">
+								<h1 style="margin-top:0; margin-bottom:0;">^</h1>
+								<h1 style="margin-top:-20px; margin-bottom:0;">{this.props.up}</h1>
+							</div>
+						</td>
+					</tr>
+					<tr style="height:200px;">
+						<td className="outer" style="text-align: center; width:100%; max-width:956px; display:inline-block; vertical-align:bottom; margin:0 auto;">
+							<div className="column1" style="width:50%; max-width:455px; display:inline-block; vertical-align:middle; text-align:left; font-family:'Chathura'; font-weight:lighter;; margin-bottom:-350px; padding-left:20px;">
+				        		<h1 style="display:inline-block;-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-o-transform:rotate(270deg);writing-mode:lr-tb; margin-top:0; margin-bottom:-120px;">^</h1><h1 style="display:inline-block; margin-top:0; margin-bottom:-20px;">{this.props.left}</h1>
+				        	</div>
+				        	<div className="column3" style="width:50%; max-width:455px; display:inline-block; vertical-align:middle; text-align:right; font-family:'Chathura'; font-weight:lighter;; margin-bottom:-354px; padding-right:20px;">
+								<h1 style="display:inline-block; margin-top:0; margin-bottom:0;">{this.props.right}</h1><h1 style="display:inline-block;-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);writing-mode:lr-tb; margin-top:0; margin-bottom:0;">^</h1>
+				        	</div>
+				        </td>
+				    </tr>
+				    <tr style="height:64px;">
+						<td style="padding:0; width:100%; vertical-align:bottom;">
+							<div style="margin:0 auto; width:100%; text-align:center; font-family:'Chathura'; font-weight:lighter;">
+								<h1 style="margin-top:0; margin-bottom: -20px;">{this.props.down}</h1>
+								<h1 style="-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);writing-mode:lr-tb; margin-top:0; margin-bottom:0;">^</h1>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		);
+	}
+}

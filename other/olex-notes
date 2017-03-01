@@ -1,0 +1,14 @@
+
+olex
+3:37 PM I’d avoid putting type in the image…B/W color scheme is working, you could dim your project images unless hovered to make them fit
+3:40 PM `filter: grayscale(1.0);` — animatable on hover too
+3:40 PM i’d work on responsive a bit
+3:41 PM https://gist.github.com/tholex/67eb8f86435ae77f3ad5 < make sure you get all the content in there
+3:41 location, a bit about yourself, email, social links
+3:42 Your face can be about 4x smaller, which would give you room on the right or below to add that stuff
+3:42 what are these crazy selectors!?
+3:42 `html body .app .children .main .landing td .img img`
+3:44 PM you want 99% of your CSS to have the same specificity, just one class
+3:45 PM e.g. in thinkful’s LESS styleguide, we only allow nesting for `.foo-class:hover` (done using `&:hover`), the occasional modifier class e.g. `.button` and `.button.button__small`, and media queries
+3:46 duplicating your HTML tree structure in CSS is bad news bears because now you have two things to refactor instead of one if you have to move things around
+3:48 PM Get the right content in there, fix up the body font, and work on responsive a little more (`320px` is the minimum to watch out for)
