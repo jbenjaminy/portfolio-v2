@@ -137,12 +137,6 @@ a:hover {
     z-index: 99;
 }
 
-/*----- BLOG SECTION------*/
-
-.blog {
-    background-color: #d2d2d2;
-}
-
 /*----- ABOUT SECTION------*/
 
 .about {
@@ -159,6 +153,33 @@ p {
     padding-bottom: 75px;
     font-size: 25px;
     line-height: 1.5;
+}
+
+/*----- BLOG SECTION------*/
+
+.blog {
+    background-color: #d2d2d2;
+}
+
+.blog-title, .blog-date {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Exo 2';
+}
+
+.blog-copy {
+    padding-top: 50px;
+}
+
+.blog-date {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.blog-title {
+    margin-top: 0;
+    padding-top: 50px;
+    font-size: 40px;
 }
 
 /*----- PORTFOLIO SECTION-----*/
