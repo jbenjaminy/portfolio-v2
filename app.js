@@ -22,13 +22,27 @@ $(document).ready(function() {
 		$('.contact').show();
 	});
 
-	$('a[href^="#"]').on('click',function (e) {
+	$('a[href^="#tab"]').on('click',function (e) {
 	    e.preventDefault();
 		var target = this.hash;
 	    var $target = $(target);
 		$('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
 	    }, 900, 'swing');
+	});
+
+	$('a[href^="#prospective"]').on('click',function (e) {
+		e.preventDefault();
+		$('html, body').stop().animate({
+			'scrollTop': $('.prospective').offset().top
+		}, 900, 'swing');
+	});
+
+	$('a[href^="#current"]').on('click',function (e) {
+		e.preventDefault();
+		$('html, body').stop().animate({
+			'scrollTop': $('.current').offset().top
+		}, 900, 'swing');
 	});
 
 	$('.proj-image').mouseenter(function() {
